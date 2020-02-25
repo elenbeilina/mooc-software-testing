@@ -24,8 +24,6 @@ class TwoNumbersSum {
             }
             result.add(i, total);
         }
-
-        Collections.reverse(result);
         return result;
     }
 }
